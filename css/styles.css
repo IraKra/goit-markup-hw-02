@@ -1,0 +1,203 @@
+:root {
+  --brand-color: #2196f3;
+  --black-color-text: #212121;
+  --white-color-text: #ffffff;
+  --white-color-background: #ffffff;
+  --grey-color-text: #757575;
+  --background-grey: #2f303a;
+  --background-grey-team: #f5f4fa;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--black-color-text);
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+/*-------------logo----------*/
+.logo {
+  color: var(--brand-color);
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.logo-hdr {
+  color: var(--black-color-text);
+}
+.logo-ftr {
+  color: var(--white-color-text);
+}
+/*---------menu-----------*/
+.nav-list {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--black-color-text);
+}
+.link-bc {
+  color: var(--brand-color);
+}
+.nav-list:hover,
+.nav-list:focus,
+.contacts-list:hover,
+.contacts-list:focus {
+  color: var(--brand-color);
+}
+
+.contacts-list {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--grey-color-text);
+}
+
+/*---------Hero-----------*/
+.hero {
+  background: var(--background-grey);
+  text-align: center;
+}
+.title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-color-text);
+}
+/*---------buttons-----------*/
+.btn {
+  cursor: pointer;
+  font-family: inherit;
+  font-style: inherit;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--white-color-text);
+  background: var(--brand-color);
+}
+.btn-portfolio {
+  font-family: inherit;
+  font-style: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background: var(--background-grey-team);
+  color: var(--black-color-text);
+}
+.btn-first {
+  background: var(--brand-color);
+  color: var(--white-color-text);
+}
+.btn-portfolio:hover {
+  background-color: var(--brand-color);
+  color: var(--white-color-text);
+}
+/*--------benefits------------*/
+.benefits-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--black-color-text);
+}
+.benefits-text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--grey-color-text);
+}
+.direction-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--black-color-text);
+}
+/*--------team------------*/
+.team {
+  background: var(--background-grey-team);
+}
+.team-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--black-color-text);
+}
+.team-names {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--black-color-text);
+}
+.team-text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--grey-color-text);
+}
+/*--------Portfolio------------*/
+.portfolio-titles {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  color: var(--black-color-text);
+}
+.portfolio-text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+
+  color: var(--grey-color-text);
+}
+/*--------footer------------*/
+.footer {
+  background: var(--background-grey);
+}
+.adress-links {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.link-map {
+  color: var(--white-color-text);
+}
+.link-contact {
+  color: rgba(255, 255, 255, 0.6);
+}
+.adress-links:hover {
+  color: var(--grey-color-text);
+}
